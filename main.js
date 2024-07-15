@@ -7,7 +7,7 @@ var cObj;
 var fObj;
 
 // GET THE CONDITIONS
-weatherConditions.open('GET','//api.openweathermap.org/data/2.5/weather?zip=11427,us&appid=725a8e5466b41180f8a384e337d3d3c8&units=imperial', true);
+weatherConditions.open('GET','//api.openweathermap.org/data/2.5/weather?zip=11426,us&appid=725a8e5466b41180f8a384e337d3d3c8&units=imperial', true);
 weatherConditions.responseType = 'text';
 weatherConditions.send(null);
 
